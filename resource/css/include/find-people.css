@@ -1,0 +1,80 @@
+.find-people__body {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.find-people__body:hover {
+  background-color: #202e3a;
+  cursor: pointer;
+}
+.find-people {
+  flex: 0.3;
+  background-color: var(--app-secondary);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.find-people__heading {
+  padding: 10px;
+  padding-left: 20px;
+}
+.find-people__heading span {
+  color: #fff;
+  font-weight: 800;
+  font-size: 19px;
+}
+.find-people__body__ava img {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.find-people__body__content {
+  margin-left: 10px;
+}
+
+.find-people__body__content .name a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.find-people__body__content .name a:hover {
+  border-bottom: 0.5px solid #fff;
+}
+.find-people__body__content .uname span {
+  font-size: 14px;
+}
+.follow-btn input {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  font-weight: 900;
+  border-radius: 30px;
+  width: 70px;
+  height: 35px;
+}
+.follow-btn input:hover {
+  background-color: rgba(255, 255, 255, 0.782);
+  cursor: pointer;
+}
+.follow-btn {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.uname span {
+  color: var(--app-font-second);
+}
+.find-people__footer {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.find-people__footer a {
+  text-decoration: none;
+  color: var(--app-font-blue);
+}

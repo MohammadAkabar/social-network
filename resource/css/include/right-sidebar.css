@@ -1,0 +1,28 @@
+.right-sidebar {
+  flex: 0.3;
+}
+.searching-field {
+  display: flex;
+  align-items: center;
+  background-color: var(--app-primary);
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.searching-field input {
+  border: none;
+  background-color: var(--app-primary);
+  outline: none;
+}
+.searching-field img {
+  filter: invert(86%) sepia(15%) saturate(111%) hue-rotate(169deg)
+    brightness(97%) contrast(88%);
+  margin-right: 5px;
+}
+.searching-field input::-webkit-input-placeholder {
+  color: #cbd2d9;
+}
+.searching-field input:focus {
+  color: #cbd2d9;
+}

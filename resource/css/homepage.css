@@ -1,0 +1,126 @@
+.layout {
+  display: grid;
+  grid-template-columns: 275px auto 350px;
+  margin: 0 auto;
+}
+.right-sidebar {
+  position: fixed;
+  width: 350px;
+}
+.img-brand {
+  height: 49px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.img-item {
+  height: 49px;
+  margin-right: 5px;
+}
+.menu {
+  position: fixed;
+  margin-left: 50px;
+}
+.menu-item {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.menu-item:hover {
+  background: rgba(107, 79, 79, 0.1);
+  color: #483434;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.menu-item--active {
+  color: #483434;
+}
+
+/* center */
+
+.main-post {
+  display: flex;
+  border-bottom: 1px solid rgba(107, 79, 79, 0.1);
+  margin-bottom: 2px;
+  padding: 10px 15px;
+}
+.main-post:hover {
+  background: rgba(107, 79, 79, 0.03);
+  cursor: pointer;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.main-post-header {
+  display: flex;
+  align-items: center;
+}
+.main-post-header-username {
+  font-size: 15px;
+  font-weight: 700;
+  color: #312b2b;
+  margin-right: 5px;
+}
+.main-post-header-account {
+  font-size: 15px;
+  color: #6b4f4f;
+}
+.main-post-header-time {
+  margin-left: 5px;
+  color: grey;
+}
+/* center */
+
+/* follow people */
+.follow-box {
+  background: rgba(107, 79, 79, 0.1);
+  border-radius: 15px;
+}
+.follow-box-main {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(107, 79, 79, 0.1);
+}
+.follow-box-img {
+  width: 50px;
+  height: 50px;
+}
+.follow-box-content-heading {
+  font-size: 19px;
+  font-weight: bold;
+  color: #312b2b;
+}
+.follow-box-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 5px;
+}
+.follow-people-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+.follow-people-account {
+  color: #6b4f4f;
+  font-size: 15px;
+}
+.follow-btn {
+  border: 1px solid rgba(107, 79, 79, 0.1);
+  color: #483434;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 5px;
+  min-width: 67px;
+  text-align: center;
+}
+.follow-btn:hover {
+  background: rgba(107, 79, 79, 0.1);
+  cursor: pointer;
+}
+/* end follow */

@@ -1,0 +1,135 @@
+.content-followers {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+
+  border-bottom: 1px solid var(--app-blue);
+}
+.content-friends {
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.content-friends:hover {
+  background-color: rgba(50, 63, 75, 0.1);
+  cursor: pointer;
+}
+.heading {
+  display: flex;
+}
+.heading .followers,
+.following {
+  margin: 0;
+  width: 19.7em;
+  height: 1.5em;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 0;
+}
+
+.heading .followers a:hover,
+.following a:hover {
+  color: #fff;
+}
+.heading .followers.active,
+.heading .following.active {
+  border-bottom: 3px solid #fff;
+}
+.heading .followers a,
+.following a {
+  text-decoration: none;
+  color: #cbd2d9;
+}
+
+/*  */
+.followersPU {
+  display: flex;
+  align-items: center;
+  width: 39.5em;
+}
+.followersPU .followersPU__ava img {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 10px;
+}
+.followersPU .followersPU__content .followersPU__content__username a {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.followersPU .followersPU__content .followersPU__content__username a:hover {
+  border-bottom: 1px solid #fff;
+}
+.followersPU .followersPU__content .followersPU__content__account span {
+  font-size: 14px;
+}
+.followersPU__end {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.follow-btn {
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  background-color: var(--app-background);
+  border: 2px solid var(--app-primary);
+  color: #cbd2d9;
+  font-weight: 900;
+  border-radius: 30px;
+}
+.follow-btn:hover {
+  background-color: var(--app-primary);
+}
+
+/*  */
+.followingsPU {
+  display: flex;
+  align-items: center;
+  width: 39.5em;
+}
+.followingsPU .followingsPU__ava img {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 10px;
+}
+.followingsPU .followingsPU__content .followingsPU__content__username a {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.followingsPU .followingsPU__content .followingsPU__content__username a:hover {
+  border-bottom: 1px solid #fff;
+}
+.followingsPU .followingsPU__content .followingsPU__content__account span {
+  font-size: 14px;
+}
+.followingsPU__end {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.follow-btn a {
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  background-color: var(--app-background);
+  border: 2px solid var(--app-primary);
+  color: #cbd2d9;
+  font-weight: 900;
+  border-radius: 30px;
+}
+.follow-btn a:hover {
+  background-color: var(--app-primary);
+}
+/*  */

@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  --app-background: #15202b;
+  --app-primary: #4e5963;
+  --app-secondary: #192734;
+  --app-blue-sky: #1d9aee;
+  --app-font-primary: #f9fafa;
+  --app-font-second: #8899a6;
+  --app-blue: #38444d;
+  background: #15202bf7;
+  font-family: "Open Sans", sans-serif;
+}
+.biodataBox {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 80%;
+  background: var(--app-background);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(140, 140, 140, 0.2);
+  margin-top: 2em;
+  margin-bottom: 6em;
+}
+.biodataBox__heading {
+  border-bottom: 1px solid var(--app-font-second);
+  padding: 20px;
+}
+.biodataBox__ava {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.bioadataBox__content {
+  padding: 20px;
+}
+.biodataBox__ava .img-default {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+.ava-box img:hover,
+.edit-img:hover {
+  transition: 0.1s ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.biodataBox__ava .edit-img {
+  text-align: center;
+  background-color: var(--app-background);
+  color: #cbd2d9;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 2px solid var(--app-primary);
+  padding: 3px;
+}
+.biodataBox__ava input {
+  position: absolute;
+  visibility: hidden;
+}
+.row-2,
+.row-3 {
+  display: flex;
+}
+.row-3 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.bioadataBox__content select {
+  width: 100%;
+  border: 2px solid var(--app-primary);
+  background: none;
+  color: var(--app-font-primary);
+  font-size: 18px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 15px 12px;
+  outline: 0;
+}
+
+.bioadataBox__content input {
+  width: 100%;
+  border: 2px solid var(--app-primary);
+  background: none;
+  font-size: 18px;
+  color: var(--app-font-primary);
+  position: relative;
+  padding: 15px 12px;
+  outline: 0;
+}
+.bioadataBox__content .bio-field input {
+  width: 100%;
+  border: 2px solid var(--app-primary);
+  background: none;
+  font-size: 18px;
+  color: var(--app-font-primary);
+  position: relative;
+  padding: 40px 12px;
+  outline: 0;
+  margin-bottom: 20px;
+}
+.bioadataBox__content .location-field {
+  margin-bottom: 20px;
+}
+.bioadataBox__content .name-field {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bioadataBox__content .birthday-field {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bioadataBox__content input::placeholder {
+  color: var(--app-font-second);
+}
+.bioadataBox__content input:focus,
+select:focus {
+  border: 2px solid var(--app-blue-sky);
+}
+.bioadataBox__content label {
+  font-weight: 900;
+  font-size: 16px;
+}
+option[default] {
+  display: none;
+}
+.graduate-field {
+  margin-right: 10px;
+}
+.birth-month,
+.birth-day {
+  margin-right: 30px;
+}
+.btn-add {
+  padding: 30px;
+  display: flex;
+  justify-content: end;
+}
+.btn-add input {
+  background-color: var(--app-blue-sky);
+  border: none;
+  color: #cbd2d9;
+  font-weight: 900;
+  font-size: 17px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-left: auto;
+}
+.btn-add input:hover {
+  background-color: #1d9aeebb;
+}

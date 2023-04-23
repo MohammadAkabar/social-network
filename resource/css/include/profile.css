@@ -1,0 +1,284 @@
+.profile__ava {
+  margin-left: 20px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.cover-bg {
+  background-color: #000;
+  background-size: cover;
+  width: 39.5em;
+}
+.profile {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--app-primary);
+}
+.content__profile {
+  margin-bottom: 20px;
+}
+.edit-profile {
+  margin-left: auto;
+  margin-block-start: auto;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.profile__ava img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #fff;
+  align-items: center;
+}
+.profile__ava .edit-profile a {
+  padding: 11px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  background-color: var(--app-background);
+  border: 1px solid var(--app-blue-sky);
+  color: #cbd2d9;
+  font-weight: 900;
+  border-radius: 30px;
+}
+.profile__ava .edit-profile a:hover {
+  background-color: var(--app-primary);
+}
+.profile__ava .edit-profile input {
+  padding: 11px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  background-color: var(--app-background);
+  border: 1px solid var(--app-blue-sky);
+  color: #cbd2d9;
+  font-weight: 900;
+  border-radius: 30px;
+}
+.profile__ava .edit-profile input:hover {
+  background-color: var(--app-primary);
+}
+
+.profile__information {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.profile__information .name span {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.profile__information .uname span {
+  font-size: 15px;
+  color: var(--app-font-second);
+  font-weight: lighter;
+}
+.profile__information .bio-desc {
+  margin-top: 10px;
+}
+.profile__information .bio {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile__information .bio span {
+  font-size: 15px;
+  color: var(--app-font-second);
+}
+.profile__information .bio .address,
+.graduate {
+  margin-right: 25px;
+  color: var(--app-font-second);
+}
+.profile__information .follow {
+  display: flex;
+}
+.profile__information .follow .following {
+  margin-right: 20px;
+}
+.profile__information .follow .num {
+  color: #fff;
+}
+.profile__information .follow .alpha {
+  font-size: 15px;
+  color: var(--app-font-second);
+}
+.content__post {
+  display: flex;
+}
+.follow a {
+  text-decoration: none;
+  color: #cbd2d9;
+}
+.follow a:hover {
+  border-bottom: 1px solid #cbd2d9;
+}
+
+/* POP UP CONTENT EDIT */
+.editPopUp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 150;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #323f4b67;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.biodataBox__ava {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.bioadataBox__content {
+  padding: 20px;
+}
+.biodataBox__ava .img-default {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+.ava-box img:hover,
+.edit-img:hover {
+  transition: 0.1s ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.biodataBox__ava .edit-img {
+  text-align: center;
+  background-color: var(--app-background);
+  color: #cbd2d9;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 2px solid var(--app-primary);
+  padding: 3px;
+}
+.biodataBox__ava input {
+  position: absolute;
+  visibility: hidden;
+}
+.row-2,
+.row-3 {
+  display: flex;
+}
+.row-3 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.bioadataBox__content select {
+  width: 100%;
+  border: 2px solid var(--app-primary);
+  background: none;
+  color: var(--app-font-primary);
+  font-size: 18px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 15px 12px;
+  outline: 0;
+}
+
+.bioadataBox__content input {
+  width: 100%;
+  border: 2px solid var(--app-primary);
+  background: none;
+  font-size: 18px;
+  color: var(--app-font-primary);
+  position: relative;
+  padding: 15px 12px;
+  outline: 0;
+}
+.bioadataBox__content .bio-field input {
+  width: 100%;
+  border: 2px solid var(--app-primary);
+  background: none;
+  font-size: 18px;
+  color: var(--app-font-primary);
+  position: relative;
+  padding: 40px 12px;
+  outline: 0;
+  margin-bottom: 20px;
+}
+.bioadataBox__content .location-field {
+  margin-bottom: 20px;
+}
+.bioadataBox__content .name-field {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bioadataBox__content .birthday-field {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bioadataBox__content input::placeholder {
+  color: var(--app-font-second);
+}
+.bioadataBox__content input:focus,
+select:focus {
+  border: 2px solid var(--app-blue-sky);
+}
+.bioadataBox__content label {
+  font-weight: 900;
+  font-size: 16px;
+}
+option[default] {
+  display: none;
+}
+.graduate-field {
+  margin-right: 10px;
+}
+.birth-month,
+.birth-day {
+  margin-right: 30px;
+}
+.btn-add {
+  padding: 30px;
+}
+.btn-add input {
+  background-color: var(--app-blue-sky);
+  border: none;
+  color: #cbd2d9;
+  font-weight: 900;
+  font-size: 17px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  justify-content: center;
+}
+.btn-add input:hover {
+  background-color: #1d9aeebb;
+}
+
+/* BOX POP UP */
+.edit-profile-form {
+  position: relative;
+  width: 50%;
+  height: 90%;
+  background: var(--app-background);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(140, 140, 140, 0.2);
+  margin-top: 6em;
+  margin-bottom: 6em;
+  overflow-y: scroll;
+}
+.editPopUp:target {
+  visibility: visible;
+  opacity: 1;
+}
+/* CLOSE ICON */
+.popUpClose-editProfile {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #ffffff;
+}
+/* END EDIT POP UP */
